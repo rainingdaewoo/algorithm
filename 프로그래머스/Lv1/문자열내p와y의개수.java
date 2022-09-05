@@ -1,7 +1,4 @@
-package 프로그래머스;
-
-import java.util.Scanner;
-import java.util.StringTokenizer;
+package 프로그래머스.Lv1;
 
 class Solution {
 
