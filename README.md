@@ -1,1 +1,1 @@
-# baekjoon
+# 프로그래머스, 백준 등 코딩 테스트 준비를 위한 repository입니다.
