@@ -1,4 +1,4 @@
-package 인프런;
+package 인프런.String;
 
 import java.util.Scanner;
 
