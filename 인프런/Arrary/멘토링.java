@@ -13,11 +13,11 @@ public class 멘토링 {
 
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int X = sc.nextInt();
-        int Y = sc.nextInt();
-        int[][] arr = new int[X][Y];
-        for(int i = 0; i < X; i++) {
-            for(int j = 0; j < Y; j++){
+        int N = sc.nextInt(); // 학생 수, x축
+        int M = sc.nextInt(); // 테스트 수, y축
+        int[][] arr = new int[M][N];
+        for(int i = 0; i < M; i++) {
+            for(int j = 0; j < N; j++){
                 arr[i][j] = sc.nextInt();
             }
         }
