@@ -22,8 +22,8 @@ public class 올바른_괄호 {
                 stack.pop();
             }
         }
-        if(stack.isEmpty()) {
-            return "YES";
+        if(!stack.isEmpty()) {
+            return "NO";
         }
 
 
