@@ -3,11 +3,21 @@ package 알고리즘_2024.인프런.Two_pointers_Sliding_window;
 import java.util.Scanner;
 
 public class 연속_부분수열 {
-    // 다시 풀기
     public static int solution(int N, int M, int[] arr) {
         int answer = 0;
         int sum = 0;
         int lt = 0;
+        for(int rt = 0; rt < N; rt++) {
+            sum += arr[rt];
+            if(sum == M) answer++;
+            else{
+                while (sum >= M) {
+                    sum -= arr[lt++];
+                    if(sum == M) answer++;
+                }
+            }
+        }
+        /*
         int rt = 0;
 
         while (rt < N) {
@@ -24,6 +34,8 @@ public class 연속_부분수열 {
             }
 
         }
+        */
+
 
 
         return answer;
